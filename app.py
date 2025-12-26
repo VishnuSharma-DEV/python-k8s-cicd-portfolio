@@ -1,5 +1,6 @@
 # A simple Flask application that returns the hostname of the pod
 # it is running in, along with a message indicating it was deployed
+# automatically by Jenkins CI/CD.        
 
 from flask import Flask
 import socket
